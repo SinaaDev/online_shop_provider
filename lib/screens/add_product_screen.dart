@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:online_shop_provider/provider/product_provider.dart';
 
@@ -13,7 +12,7 @@ import 'package:provider/provider.dart';
 
 class AddProductScreen extends StatefulWidget {
 
-  AddProductScreen({super.key});
+  const AddProductScreen({super.key});
 
   @override
   State<AddProductScreen> createState() => _AddProductScreenState();

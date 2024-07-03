@@ -38,7 +38,7 @@ class AppDrawer extends StatelessWidget {
             // options
             Option(icon: Iconsax.add,title: 'Add Product',onPressed: (){
               Navigator.pop(context);
-              Navigator.push(context, MaterialPageRoute(builder: (context) => AddProductScreen(),));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const AddProductScreen(),));
             },),
             Option(icon: Iconsax.heart,title: 'Favourites',onPressed: (){
               Navigator.pop(context);
@@ -46,7 +46,7 @@ class AppDrawer extends StatelessWidget {
             },),
             Option(icon: Iconsax.shopping_cart,title: 'Cart',onPressed: (){
               Navigator.pop(context);
-              Navigator.push(context, MaterialPageRoute(builder: (context) => CartScreen(),));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const CartScreen(),));
             },),
 
           ],

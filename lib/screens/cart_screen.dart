@@ -4,7 +4,6 @@ import 'package:gap/gap.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:online_shop_provider/provider/cart_provider.dart';
 
-import '../model/product_model.dart';
 import 'package:provider/provider.dart';
 
 import '../widgets/cart_item.dart';
